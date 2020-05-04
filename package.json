@@ -1,0 +1,24 @@
+{
+  "name": "grooveimport",
+  "version": "1.0.0",
+  "description": "Import TXT playlist to your Youtube account",
+  "main": "app.js",
+  "dependencies": {
+    "google-auth-library": "^6.0.0",
+    "googleapis": "^49.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js <playlist.txt>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbrou/grooveimport.git"
+  },
+  "author": "imbrou",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/imbrou/grooveimport/issues"
+  },
+  "homepage": "https://github.com/imbrou/grooveimport#readme"
+}
