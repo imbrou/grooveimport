@@ -1,4 +1,4 @@
 client_secret.json
 node_modules/
 package-lock.json
-pose.txt
+*.txt
