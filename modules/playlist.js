@@ -21,7 +21,6 @@ async function createPlaylist(auth, title = "Grooveimport", description = "Bruce
 			}
 		}
 	}) ;
-}) ;
 }
 
 /**
