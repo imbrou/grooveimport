@@ -28,7 +28,7 @@ async function createPlaylist(auth, title = "Grooveimport", description = "Bruce
  *
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
-async function addVideoToPlaylist(auth, videoId = "M7FIvfx5J10", playlistId = "PLTdo65j6ZQAWnGNsp4XZ7tCG5hpn-RA7P", position = 0) {
+async function addVideoToPlaylist(auth, videoId = "M7FIvfx5J10", playlistId = "PLTdo65j6ZQAWnGNsp4XZ7tCG5hpn"/*-RA7P"*/, position = 0) {
 	var service = google.youtube('v3') ;
 	return service.playlistItems.insert({
 		auth: auth,
